@@ -1,0 +1,11 @@
+nav {
+    margin: -25px;
+}
+
+*,*:before,*::after{   
+    /* box-sizing: inherit; */
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+

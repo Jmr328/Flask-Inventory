@@ -9,3 +9,7 @@ def home():
 @site.route('/profile')
 def profile():
     return render_template('profile.html')
+
+@site.route('/inventory', methods = ['GET', 'POST'])
+def inventory():
+    return render_template('inventory.html')

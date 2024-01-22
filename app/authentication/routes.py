@@ -53,3 +53,4 @@ def signin():
 def logout():
     logout_user()
     return redirect(url_for('site.home'))
+
